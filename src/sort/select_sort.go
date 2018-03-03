@@ -8,11 +8,11 @@ func change( first *int,second *int){
 	*first=*second
 	*second=temp
 }
-func change1(first int,second int){
-	temp:=first
-	first=second
-	second=temp
-}
+//func change1(first int,second int){
+//	temp:=first
+//	first=second
+//	second=temp
+//}
 func insert_sort(input []int) []int{
 	fmt.Println(len(input))
 	length:=len(input)
