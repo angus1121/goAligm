@@ -13,7 +13,7 @@ func change( first *int,second *int){
 //	first=second
 //	second=temp
 //}
-func insert_sort(input []int) []int{
+func select_sort(input []int) []int{
 	fmt.Println(len(input))
 	length:=len(input)
 	var pos int=0
@@ -38,5 +38,5 @@ func main()  {
 	}
 	data[2]=5
 	fmt.Println(data)
-	insert_sort(data)
+	select_sort(data)
 }
